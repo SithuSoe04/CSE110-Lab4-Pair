@@ -115,5 +115,5 @@ test("creates a new expense with no cost", () => {
 
   fireEvent.click(createExpenseButton);
   const expensesList = screen.queryAllByRole("listitem")
-  expect(expensesList.length).toBe(1); //should be 0, changed for testing purposes
+  expect(expensesList.length).toBe(0);
 });
